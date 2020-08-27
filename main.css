@@ -89,12 +89,12 @@ header .logo img {
     text-decoration: none;
     font-size: 20px;
     border-radius: 60px;
-    background: linear-gradient(80deg, #E3E3E3, #9E9E9E);
+    background: linear-gradient(80deg, #ededed, #f0f0f0);
 }
 
 .background a:nth-of-type(2) {
     color: #ffffff;
-    background: linear-gradient(80deg, #2360BD, #646ED5);
+    background: linear-gradient(80deg, #2b79cc, #2b84cc);
 }
 
 /* Pixel Waves */

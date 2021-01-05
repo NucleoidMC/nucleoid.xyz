@@ -14,7 +14,7 @@ They choose a game and create a map using a handy command.
 <br>
 <img class="header_image" src="https://iili.io/Kg34kl.jpg">
 
-One of our builders is creating a [KotH (King of the Hill)](https://github.com/NucleoidMC/koth) map using [Plasmid](https://github.com/NucleoidMC/plasmid). Plasmid is a framework that allows our games to run, maps loaded and much much more. Its considered one of the main reasons why NucleoidMC isn't using bukkit or commonly bungeecord.
+One of our builders is creating a [KotH (King of the Hill)](https://github.com/NucleoidMC/koth) map using [Plasmid](https://github.com/NucleoidMC/plasmid). Plasmid is our custom game library which allows us to create minigames, and maps for those minigames, with ease.
 
 Plasmid allows our builders to access a <code>/map</code> command. The map command allows the swift creation of maps, editing, and exporting for use in production. 
 

@@ -12,7 +12,7 @@ When a builder decides that they want to make a map, they first of all, head to 
 They choose a game and create a map using a handy command.
 
 <br>
-<img class="header_image" src="https://iili.io/Kg34kl.jpg">
+<img class="header_image" src="assets/images/blog/Kg34kl.jpg">
 
 One of our builders is creating a [KotH (King of the Hill)](https://github.com/NucleoidMC/koth) map using [Plasmid](https://github.com/NucleoidMC/plasmid). Plasmid is our custom game library which allows us to create minigames, and maps for those minigames, with ease.
 
@@ -33,7 +33,7 @@ For KotH, we require two vital regions:
 For showcase purposes, our builder has set the regions to visible:
 
 <br>
-<img class="header_image" src="https://iili.io/Kg3ZBe.png">
+<img class="header_image" src="assets/images/blog/Kg3ZBe.png">
 
 "But what do the colors mean?" you might say;
 <br><br>

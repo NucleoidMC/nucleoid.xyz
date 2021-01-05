@@ -5,7 +5,7 @@ date = 2021-05-01
 extra.image = "assets/images/blog/mapmaking.png"
 +++
 
-Map Making 101
+How we make our maps:
 
 When a builder decides that they want to make a map, they first of all, head to our (whitelisted) build server found at <code>build.nucleoid.xyz</code>
 

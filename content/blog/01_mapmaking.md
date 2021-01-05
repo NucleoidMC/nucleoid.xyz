@@ -5,7 +5,7 @@ date = 2021-05-01
 extra.image = "assets/images/blog/mapmaking.png"
 +++
 
-Map Making 101! How else do you think we made our minigames?
+Map Making 101
 
 When a builder decides that they want to make a map, they first of all, head to our build server (Whitelisted for obvious reasons) found at <code>build.nucleoid.xyz</code>
 

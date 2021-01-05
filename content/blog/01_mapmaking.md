@@ -7,7 +7,7 @@ extra.image = "assets/images/blog/mapmaking.png"
 
 Map Making 101
 
-When a builder decides that they want to make a map, they first of all, head to our build server (Whitelisted for obvious reasons) found at <code>build.nucleoid.xyz</code>
+When a builder decides that they want to make a map, they first of all, head to our (whitelisted) build server found at <code>build.nucleoid.xyz</code>
 
 They choose a game and create a map using a handy command.
 

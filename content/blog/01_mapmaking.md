@@ -36,7 +36,7 @@ For showcase purposes, our builder has set the regions to visible:
 "But what do the colors mean?" you might say;
 <br><br>
 - Red - The bounding box, anything built outside this red cube will not be saved.
-- Blue - Regions, as you can see, the lower region is the spawn and the topmost region is the throne.
+- Blue - Regions, the lower region is the spawn and the topmost region is the throne.
 
 <br>
 

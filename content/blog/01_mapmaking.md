@@ -16,6 +16,8 @@ They choose a game and create a map using a handy command.
 
 One of our builders is creating a [KotH (King of the Hill)](https://github.com/NucleoidMC/koth) map using [Plasmid](https://github.com/NucleoidMC/plasmid). Plasmid is our custom game library which allows us to create minigames, and maps for those minigames, with ease.
 
+If you want more infomation on plasmid, [check its wiki out.](https://github.com/NucleoidMC/plasmid/wiki/)
+
 Plasmid allows our builders to access a <code>/map</code> command. The map command allows the swift creation of maps, editing, and exporting for use in production. 
 
 Each map requires regions (Unless the game doesn't require any set regions) which can be configured using the <code>/map region</code> command.

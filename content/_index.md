@@ -68,6 +68,12 @@ minecraft = "836c8cc4bd0a45b3bced72bbb3af2d0d"
 [[extra.contributors]]
 name = "Expora9"
 minecraft = "8b07d8ad352e4b86b1bc2d2dad269c4b"
+[[extra.contributors]]
+name = "cal6541"
+minecraft = "8d6dddfcb3eb4d4a9e98754aaed544e6"
+[[extra.contributors]]
+name = "yitzy"
+minecraft = "3af33e5e2dc64915b34f178f7b2f5e50"
 +++
 
 ## Hello! 👋

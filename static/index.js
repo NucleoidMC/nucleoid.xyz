@@ -5,11 +5,16 @@ document.querySelectorAll('.carousel').forEach(carousel => {
     const item = carousel.querySelector('.item');
     
     next.addEventListener('click', function() {
-        scroller.scrollBy({ left: item.clientWidth, top: 0, behavior: 'smooth' });
+        if (scroller.scrollLeft + item.clientWidth >= scroller.scrollWidth) {
+			scroller.scrollBy({ left: -scroller.scrollWidth, top: 0 });
+		}
+		scroller.scrollBy({ left: item.clientWidth, top: 0, behavior: 'smooth' });
     });
     prev.addEventListener('click', function() {
-        scroller.scrollBy({ left: -item.clientWidth, top: 0, behavior: 'smooth' });
-    });
+		if (scroller.scrollLeft == 0) {
+			scroller.scrollBy({ left: scroller.scrollWidth, top: 0 });
+		}
+        scroller.scrollBy({ left: -item.clientWidth, top: 0, behavior: 'smooth' });    });
 });
 
 document.querySelectorAll('.scroll_indicator').forEach(scrollIndicator => {
@@ -20,9 +25,9 @@ document.querySelectorAll('.scroll_indicator').forEach(scrollIndicator => {
     function scroll() {
         var top = window.pageYOffset || document.documentElement.scrollTop;
         if (top > 10) {
-            scrollIndicator.classList.add("hidden");
+            scrollIndicator.classList.add("scrolled");
         } else {
-            scrollIndicator.classList.remove("hidden");
+            scrollIndicator.classList.remove("scrolled");
         }
     }
 });

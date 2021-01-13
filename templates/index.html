@@ -67,24 +67,6 @@
             </div>
           </div>
           {% endfor %}
-          <div class="item">
-            <div class="header">
-              <h2 style="pointer-events:none;">{{ section.pages[0].title }}</h2>
-              <a href="{{section.pages[0].extra.link | safe}}"><img src="{{ section.pages[0].extra.header | default(value='assets/images/fallback.png') | safe }}" /></a>
-            </div>
-            <div class="desc">
-              {{section.pages[0].content | safe}}
-            </div>
-            <div class="contributors" style="margin-top:auto;padding:4px;width:100%;">
-              <div style="margin-left:auto;"></div>
-              {% for contributor in section.pages[0].extra.contributors %}
-              <div class="contributor small">
-                <img src="https://minotar.net/helm/{{contributor.minecraft}}/8" class="sharp" />
-                <h3>{{ contributor.name }}</h3>
-              </div>
-              {% endfor %}
-            </div>
-          </div>
         </div>
       </div>
     </div>

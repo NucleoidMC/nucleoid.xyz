@@ -6,14 +6,14 @@ document.querySelectorAll('.carousel').forEach(carousel => {
     
     next.addEventListener('click', function() {
         if (scroller.scrollLeft + item.clientWidth >= scroller.scrollWidth) {
-			scroller.scrollBy({ left: -scroller.scrollWidth, top: 0 });
-		}
-		scroller.scrollBy({ left: item.clientWidth, top: 0, behavior: 'smooth' });
+            scroller.scrollBy({ left: -scroller.scrollWidth, top: 0 });
+        }
+        scroller.scrollBy({ left: item.clientWidth, top: 0, behavior: 'smooth' });
     });
     prev.addEventListener('click', function() {
-		if (scroller.scrollLeft == 0) {
-			scroller.scrollBy({ left: scroller.scrollWidth, top: 0 });
-		}
+        if (scroller.scrollLeft == 0) {
+            scroller.scrollBy({ left: scroller.scrollWidth, top: 0 });
+        }
         scroller.scrollBy({ left: -item.clientWidth, top: 0, behavior: 'smooth' });    });
 });
 
@@ -25,9 +25,9 @@ document.querySelectorAll('.scroll_indicator').forEach(scrollIndicator => {
     function scroll() {
         var top = window.pageYOffset || document.documentElement.scrollTop;
         if (top > 10) {
-            scrollIndicator.classList.add("scrolled");
+            scrollIndicator.classList.add("hidden");
         } else {
-            scrollIndicator.classList.remove("scrolled");
+            scrollIndicator.classList.remove("hidden");
         }
     }
 });

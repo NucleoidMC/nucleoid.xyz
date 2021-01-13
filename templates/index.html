@@ -66,8 +66,8 @@
               {% endfor %}
             </div>
           </div>
-		  {% endfor %}
-		  <div class="item">
+          {% endfor %}
+          <div class="item">
             <div class="header">
               <h2 style="pointer-events:none;">{{ section.pages[0].title }}</h2>
               <a href="{{section.pages[0].extra.link | safe}}"><img src="{{ section.pages[0].extra.header | default(value='assets/images/fallback.png') | safe }}" /></a>

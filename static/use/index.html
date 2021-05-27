@@ -299,13 +299,11 @@ SOFTWARE.
                 const parser = new DOMParser();
                 function getLibraryVersion(maven, group, artifact, callback) {
                     const metadata_url = maven + group.replace('.', '/') + '/' + artifact + '/maven-metadata.xml';
-                    console.log(metadata_url);
                     fetch(metadata_url)
                         .then(res => res.text())
                         .then(text => parser.parseFromString(text, 'text/xml'))
                         .then(doc => {
                             const latestVersion = doc.getElementsByTagName('latest')[0].innerHTML;
-                            console.log(`${group}:${artifact}:${latestVersion}`)
                             callback(latestVersion);
                         });
                 }

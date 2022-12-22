@@ -57,7 +57,7 @@
             <div class="desc">
               {{page.content | safe}}
             </div>
-            <div class="contributors" style="margin-top:auto;padding:4px;width:100%;">
+            <div class="game-contributors" style="margin-top:auto;padding:4px;width:100%;">
               <div style="margin-left:auto;"></div>
               {% for contributor in page.extra.contributors %}
               <div class="contributor small">
@@ -91,18 +91,16 @@
       {% endfor %}
       <a href="{{blogs.permalink}}"><p>View all development posts...</p></a>
     </div>
+  </div>
 
-    <h1>The Contributors</h1>
-    <div class="contributors">
-      {% for contributor in section.extra.contributors %}
-      <div class="contributor">
-        <img src="https://api.nucleoid.xyz/skin/face/128/{{contributor.minecraft}}" class="sharp" />
-        <h3>{{ contributor.name }}</h3>
-      </div>
-      {% endfor %}
-    </div>
+  <h1>The Contributors</h1>
+  <div id="contributors" class="loading">
+    <p>
+      Thanks to <a href="https://contributors.nucleoid.xyz" target="_blank">all our contributors</a>!
+    </p>
   </div>
   <script src="index.js"></script>
+  <script src="contributors.js"></script>
 </div>
 </div>
 {% endblock body %}

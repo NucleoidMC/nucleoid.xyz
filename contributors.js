@@ -1,5 +1,5 @@
 (async function() {
-    const res = await fetch('http://contributors.nucleoid.xyz/widget.html');
+    const res = await fetch('https://contributors.nucleoid.xyz/widget.html');
     if (!res.ok) console.error('failed to load contributors!');
     const html = await res.text();
     const ele = document.getElementById('contributors');

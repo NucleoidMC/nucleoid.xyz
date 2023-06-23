@@ -41,7 +41,6 @@ statusRequest.onreadystatechange = function() {
     if (statusRequest.readyState == 4) {
         if (statusRequest.status == 200) {
             const json = JSON.parse(statusRequest.responseText);
-            const gameVersion = json.game_version;
             const playerCount = json.players.length;
     
             var content = "You can join us";
@@ -51,11 +50,7 @@ statusRequest.onreadystatechange = function() {
                 content = "You can join 1 other player";
             }
 
-            if (gameVersion != "") {
-                content += " with <b>Minecraft " + gameVersion + "</b> ";
-            }
-            
-            content += "at: <code>nucleoid.xyz</code>"
+            content += " at: <code>nucleoid.xyz</code>"
 
             serverStatus.innerHTML = content;
         }

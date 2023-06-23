@@ -2,7 +2,7 @@
 title = "Microbattle"
 
 [extra]
-header = "assets/images/microbattle.png"
+header = "assets/images/microbattle.webp"
 link = "https://github.com/NucleoidMC/Microbattle"
 
 [[extra.contributors]]

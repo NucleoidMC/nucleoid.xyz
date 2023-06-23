@@ -3,8 +3,8 @@
 {% block og %}
 <meta property="og:title" content="Nucleoid">
 <meta property="og:description" content="Nucleoid is an effort to build a fully open-source Minecraft minigames server">
-<meta property="og:image" content="{{config.base_url}}/assets/images/nucleoid_icon.png">
-<meta property="og:image:type" content="image/png">
+<meta property="og:image" content="{{config.base_url}}/assets/images/nucleoid_icon.webp">
+<meta property="og:image:type" content="image/webp">
 <meta property="og:image:alt" content="Nucleoid's logo">
 <meta property="og:image:width" content="256">
 <meta property="og:image:height" content="256">
@@ -19,10 +19,10 @@
 {% block body %}
 <div id="root">
   <div id="home">
-    <img src="assets/images/background.png" alt="A screenshot of the Nucleoid Minecraft server" id="server_background">
+    <img src="assets/images/background.webp" alt="A screenshot of the Nucleoid Minecraft server" id="server_background">
 
     <div class="header">
-      <img src="assets/images/nucleoid_logo.png" alt="Nucleoid's logo" id="nucleoidLogo" class="sharp">
+      <img src="assets/images/nucleoid_logo.webp" alt="Nucleoid's logo" id="nucleoidLogo" class="sharp">
     </div>
 
     <div class="content">
@@ -52,7 +52,7 @@
           <div class="item">
             <div class="header">
               <h2 style="pointer-events:none;">{{ page.title }}</h2>
-              <a href="{{page.extra.link | safe}}"><img src="{{ page.extra.header | default(value='assets/images/fallback.png') | safe }}" /></a>
+              <a href="{{page.extra.link | safe}}"><img src="{{ page.extra.header | default(value='assets/images/fallback.webp') | safe }}" /></a>
             </div>
             <div class="desc">
               {{page.content | safe}}

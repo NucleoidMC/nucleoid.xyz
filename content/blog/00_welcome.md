@@ -2,7 +2,7 @@
 title = "Welcome to our blog!"
 date = 2020-12-21
 
-extra.image = "assets/images/blog/welcome.png"
+extra.image = "assets/images/blog/welcome.webp"
 +++
 
 Welcome to our blog! This is the first post in our new development updates section- and it hopefully will be the first of many to come!

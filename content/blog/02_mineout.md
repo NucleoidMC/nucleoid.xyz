@@ -2,7 +2,7 @@
 title = "Making Of: Mineout"
 date = 2021-01-07
 
-extra.image = "assets/images/blog/making_of_mineout.png"
+extra.image = "assets/images/blog/making_of_mineout.webp"
 +++
 
 As described by the homepage, 

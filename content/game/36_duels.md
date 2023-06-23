@@ -2,7 +2,7 @@
 title = "Duels"
 
 [extra]
-header = "assets/images/fallback.png"
+header = "assets/images/fallback.webp"
 link = "https://github.com/NucleoidMC/Duels"
 
 [[extra.contributors]]

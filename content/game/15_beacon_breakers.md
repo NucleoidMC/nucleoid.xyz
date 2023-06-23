@@ -2,7 +2,7 @@
 title = "Beacon Breakers"
 
 [extra]
-header = "assets/images/beacon_breakers.png"
+header = "assets/images/beacon_breakers.webp"
 link = "https://github.com/NucleoidMC/Beacon-Breakers"
 
 [[extra.contributors]]

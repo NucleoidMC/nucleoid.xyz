@@ -2,7 +2,7 @@
 title = "Cake Wars"
 
 [extra]
-header = "assets/images/cake_wars.png"
+header = "assets/images/cake_wars.webp"
 link = "https://github.com/NucleoidMC/Cake-Wars"
 
 [[extra.contributors]]

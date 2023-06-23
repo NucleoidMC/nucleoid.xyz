@@ -2,7 +2,7 @@
 title = "Spleef"
 
 [extra]
-header = "assets/images/spleef.png"
+header = "assets/images/spleef.webp"
 link = "https://github.com/NucleoidMC/spleef"
 
 [[extra.contributors]]

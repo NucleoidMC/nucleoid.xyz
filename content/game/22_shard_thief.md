@@ -2,7 +2,7 @@
 title = "Shard Thief"
 
 [extra]
-header = "assets/images/shard_thief.png"
+header = "assets/images/shard_thief.webp"
 link = "https://github.com/NucleoidMC/Shard-Thief"
 
 [[extra.contributors]]

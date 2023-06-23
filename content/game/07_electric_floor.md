@@ -2,7 +2,7 @@
 title = "Electric Floor"
 
 [extra]
-header = "assets/images/electric_floor.png"
+header = "assets/images/electric_floor.webp"
 link = "https://github.com/NucleoidMC/Electric-Floor"
 
 [[extra.contributors]]

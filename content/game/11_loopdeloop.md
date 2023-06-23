@@ -2,7 +2,7 @@
 title = "Loop-de-Loop"
 
 [extra]
-header = "assets/images/loopdeloop.png"
+header = "assets/images/loopdeloop.webp"
 link = "https://github.com/NucleoidMC/loop-de-loop"
 
 [[extra.contributors]]

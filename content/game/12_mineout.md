@@ -2,7 +2,7 @@
 title = "Mineout"
 
 [extra]
-header = "assets/images/mineout.png"
+header = "assets/images/mineout.webp"
 link = "https://github.com/NucleoidMC/mineout"
 
 [[extra.contributors]]

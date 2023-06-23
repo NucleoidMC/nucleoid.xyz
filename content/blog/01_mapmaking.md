@@ -2,7 +2,7 @@
 title = "How We Make Our Maps"
 date = 2021-01-07
 
-extra.image = "assets/images/blog/mapmaking.png"
+extra.image = "assets/images/blog/mapmaking.webp"
 +++
 
 Any fun, playable game needs an interesting map to be played on! This makes map building one of the most important parts of the minigame creation process.

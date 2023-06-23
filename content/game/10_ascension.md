@@ -2,7 +2,7 @@
 title = "Ascension"
 
 [extra]
-header = "assets/images/ascension.png"
+header = "assets/images/ascension.webp"
 link = "https://github.com/NucleoidMC/Ascension"
 
 [[extra.contributors]]

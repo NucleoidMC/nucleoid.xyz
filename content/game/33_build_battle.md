@@ -2,7 +2,7 @@
 title = "Build Battle"
 
 [extra]
-header = "assets/images/build_battle.png"
+header = "assets/images/build_battle.webp"
 link = "https://github.com/NucleoidMC/BuildBattle"
 
 [[extra.contributors]]

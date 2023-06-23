@@ -2,7 +2,7 @@
 title = "King of the Hill"
 
 [extra]
-header = "assets/images/koth.png"
+header = "assets/images/koth.webp"
 link = "https://github.com/NucleoidMC/koth"
 
 [[extra.contributors]]

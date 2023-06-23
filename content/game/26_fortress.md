@@ -2,7 +2,7 @@
 title = "Fortress"
 
 [extra]
-header = "assets/images/fortress.png"
+header = "assets/images/fortress.webp"
 link = "https://github.com/NucleoidMC/Fortress"
 
 [[extra.contributors]]

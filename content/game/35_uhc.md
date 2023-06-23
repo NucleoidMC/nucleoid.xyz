@@ -2,7 +2,7 @@
 title = "UHC"
 
 [extra]
-header = "assets/images/uhc.png"
+header = "assets/images/uhc.webp"
 link = "https://github.com/NucleoidMC/UHC"
 
 [[extra.contributors]]

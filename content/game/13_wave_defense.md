@@ -2,7 +2,7 @@
 title = "Wave Defense"
 
 [extra]
-header = "assets/images/wave_defense.png"
+header = "assets/images/wave_defense.webp"
 link = "https://github.com/NucleoidMC/wave-defense"
 
 [[extra.contributors]]

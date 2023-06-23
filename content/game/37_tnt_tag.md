@@ -2,7 +2,7 @@
 title = "TNT Tag"
 
 [extra]
-header = "assets/images/fallback.png"
+header = "assets/images/fallback.webp"
 link = "https://github.com/NucleoidMC/TNT-Tag"
 
 [[extra.contributors]]

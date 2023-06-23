@@ -2,7 +2,7 @@
 title = "Color Swap"
 
 [extra]
-header = "assets/images/color_swap.png"
+header = "assets/images/color_swap.webp"
 link = "https://github.com/NucleoidMC/Color-Swap"
 
 [[extra.contributors]]

@@ -2,7 +2,7 @@
 title = "Murder Mystery"
 
 [extra]
-header = "assets/images/murder_mystery.png"
+header = "assets/images/murder_mystery.webp"
 link = "https://github.com/NucleoidMC/Murder-Mystery"
 
 [[extra.contributors]]

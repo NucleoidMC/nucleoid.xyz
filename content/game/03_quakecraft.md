@@ -2,7 +2,7 @@
 title = "Quakecraft"
 
 [extra]
-header = "assets/images/quakecraft.png"
+header = "assets/images/quakecraft.webp"
 link = "https://github.com/LambdAurora/quakecraft"
 
 [[extra.contributors]]

@@ -2,7 +2,7 @@
 title = "Elytron"
 
 [extra]
-header = "assets/images/elytron.png"
+header = "assets/images/elytron.webp"
 link = "https://github.com/NucleoidMC/Elytron"
 
 [[extra.contributors]]

@@ -2,7 +2,7 @@
 title = "Siege"
 
 [extra]
-header = "assets/images/siege.png"
+header = "assets/images/siege.webp"
 link = "https://github.com/NucleoidMC/Siege"
 
 [[extra.contributors]]

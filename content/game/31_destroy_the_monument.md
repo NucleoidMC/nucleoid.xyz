@@ -2,7 +2,7 @@
 title = "Destroy The Monument"
 
 [extra]
-header = "assets/images/destroy_the_monument.png"
+header = "assets/images/destroy_the_monument.webp"
 link = "https://github.com/NucleoidMC/DestroyTheMonument"
 
 [[extra.contributors]]

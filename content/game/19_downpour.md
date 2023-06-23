@@ -2,7 +2,7 @@
 title = "Downpour"
 
 [extra]
-header = "assets/images/downpour.png"
+header = "assets/images/downpour.webp"
 link = "https://github.com/NucleoidMC/Downpour"
 
 [[extra.contributors]]

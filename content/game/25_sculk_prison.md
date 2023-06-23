@@ -2,7 +2,7 @@
 title = "Sculk Prison"
 
 [extra]
-header = "assets/images/sculk_prison.png"
+header = "assets/images/sculk_prison.webp"
 link = "https://github.com/NucleoidMC/Sculk-Prison"
 
 [[extra.contributors]]

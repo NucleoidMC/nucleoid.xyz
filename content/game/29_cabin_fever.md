@@ -2,7 +2,7 @@
 title = "Cabin Fever"
 
 [extra]
-header = "assets/images/cabin_fever.png"
+header = "assets/images/cabin_fever.webp"
 link = "https://github.com/NucleoidMC/Cabin-Fever"
 
 [[extra.contributors]]

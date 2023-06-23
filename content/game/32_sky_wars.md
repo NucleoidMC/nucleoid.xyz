@@ -2,7 +2,7 @@
 title = "Sky Wars"
 
 [extra]
-header = "assets/images/sky_wars.png"
+header = "assets/images/sky_wars.webp"
 link = "https://github.com/NucleoidMC/skywars"
 
 [[extra.contributors]]

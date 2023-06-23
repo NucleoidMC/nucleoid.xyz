@@ -2,7 +2,7 @@
 title = "Creeperfall"
 
 [extra]
-header = "assets/images/creeperfall.png"
+header = "assets/images/creeperfall.webp"
 link = "https://github.com/NucleoidMC/Creeperfall"
 
 [[extra.contributors]]

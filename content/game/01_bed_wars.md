@@ -2,7 +2,7 @@
 title = "BedWars"
 
 [extra]
-header = "assets/images/bed_wars.png"
+header = "assets/images/bed_wars.webp"
 link = "https://github.com/NucleoidMC/bed-wars"
 
 [[extra.contributors]]

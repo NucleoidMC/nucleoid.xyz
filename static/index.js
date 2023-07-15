@@ -6,6 +6,8 @@ document.querySelectorAll('.carousel').forEach(carousel => {
 
     scroller.appendChild(scroller.firstElementChild.cloneNode(true));
 
+    scroller.scrollBy({ left: Math.floor((Math.random() * scroller.scrollWidth) / scroller.clientWidth) * scroller.clientWidth, top: 0, behavior: 'instant' });
+
     next.addEventListener('click', function() {
         if (scroller.scrollLeft + item.clientWidth >= scroller.scrollWidth) {
             scroller.scrollBy({ left: -scroller.scrollWidth, top: 0 });
@@ -16,7 +18,8 @@ document.querySelectorAll('.carousel').forEach(carousel => {
         if (scroller.scrollLeft == 0) {
             scroller.scrollBy({ left: scroller.scrollWidth, top: 0 });
         }
-        scroller.scrollBy({ left: -item.clientWidth, top: 0, behavior: 'smooth' });    });
+        scroller.scrollBy({ left: -item.clientWidth, top: 0, behavior: 'smooth' });   
+    });
 });
 
 document.querySelectorAll('.scroll_indicator').forEach(scrollIndicator => {

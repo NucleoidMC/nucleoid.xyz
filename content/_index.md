@@ -1,6 +1,7 @@
 +++
 title = "Nucleoid"
 template = "index.html"
+sort_by = "title"
 +++
 
 ## Hello! 👋

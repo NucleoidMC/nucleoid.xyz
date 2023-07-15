@@ -6,17 +6,34 @@ document.querySelectorAll('.carousel').forEach(carousel => {
 
     scroller.appendChild(scroller.firstElementChild.cloneNode(true));
 
-    next.addEventListener('click', function() {
+    scroller.scrollBy({ left: Math.floor((Math.random() * scroller.scrollWidth) / scroller.clientWidth) * scroller.clientWidth, top: 0, behavior: 'instant' });
+
+    const scrollForward = function() {
         if (scroller.scrollLeft + item.clientWidth >= scroller.scrollWidth) {
             scroller.scrollBy({ left: -scroller.scrollWidth, top: 0 });
         }
         scroller.scrollBy({ left: item.clientWidth, top: 0, behavior: 'smooth' });
+    };
+
+    var interacted = false;
+
+    next.addEventListener('click', function() {
+        scrollForward();
+        interacted = true;
     });
     prev.addEventListener('click', function() {
         if (scroller.scrollLeft == 0) {
             scroller.scrollBy({ left: scroller.scrollWidth, top: 0 });
         }
-        scroller.scrollBy({ left: -item.clientWidth, top: 0, behavior: 'smooth' });    });
+        scroller.scrollBy({ left: -item.clientWidth, top: 0, behavior: 'smooth' });
+        interacted = true;
+    });
+
+    setInterval(function() {
+        if (!interacted) {
+            scrollForward();
+        }
+    }, 10000);
 });
 
 document.querySelectorAll('.scroll_indicator').forEach(scrollIndicator => {

@@ -34,10 +34,16 @@
         <loc>https://nucleoid.xyz/game/bed-wars/</loc>
     </url>
     <url>
+        <loc>https://nucleoid.xyz/game/block-lobbers/</loc>
+    </url>
+    <url>
         <loc>https://nucleoid.xyz/game/bow-battle/</loc>
     </url>
     <url>
         <loc>https://nucleoid.xyz/game/build-battle/</loc>
+    </url>
+    <url>
+        <loc>https://nucleoid.xyz/game/build-rush/</loc>
     </url>
     <url>
         <loc>https://nucleoid.xyz/game/cabin-fever/</loc>
@@ -61,6 +67,9 @@
         <loc>https://nucleoid.xyz/game/deacoudre/</loc>
     </url>
     <url>
+        <loc>https://nucleoid.xyz/game/death-run/</loc>
+    </url>
+    <url>
         <loc>https://nucleoid.xyz/game/destroy-the-monument/</loc>
     </url>
     <url>
@@ -82,6 +91,9 @@
         <loc>https://nucleoid.xyz/game/fortress/</loc>
     </url>
     <url>
+        <loc>https://nucleoid.xyz/game/item-hunt/</loc>
+    </url>
+    <url>
         <loc>https://nucleoid.xyz/game/koth/</loc>
     </url>
     <url>
@@ -98,6 +110,9 @@
     </url>
     <url>
         <loc>https://nucleoid.xyz/game/quakecraft/</loc>
+    </url>
+    <url>
+        <loc>https://nucleoid.xyz/game/rocketspleef/</loc>
     </url>
     <url>
         <loc>https://nucleoid.xyz/game/sculk-prison/</loc>
@@ -121,6 +136,9 @@
         <loc>https://nucleoid.xyz/game/territory-battle/</loc>
     </url>
     <url>
+        <loc>https://nucleoid.xyz/game/the-towers/</loc>
+    </url>
+    <url>
         <loc>https://nucleoid.xyz/game/tnt-tag/</loc>
     </url>
     <url>
@@ -130,6 +148,12 @@
         <loc>https://nucleoid.xyz/game/uhc/</loc>
     </url>
     <url>
+        <loc>https://nucleoid.xyz/game/volleyball/</loc>
+    </url>
+    <url>
         <loc>https://nucleoid.xyz/game/wave-defense/</loc>
+    </url>
+    <url>
+        <loc>https://nucleoid.xyz/game/werewolf/</loc>
     </url>
 </urlset>

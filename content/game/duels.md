@@ -2,16 +2,13 @@
 title = "Duels"
 
 [extra]
-header = "assets/images/fallback.webp"
-link = "https://github.com/NucleoidMC/Duels"
+header = "assets/images/duels.webp"
+link = "https://github.com/NucleoidMC/Duels2"
 
 [[extra.contributors]]
-name = "mounderfod"
-minecraft = "04b087925f0e4ba5bf6ddba7bfe240d9"
-[[extra.contributors]]
-name = "IamSeahawk"
-minecraft = "63e167f5026b49499a12727b8b1ff291"
+name = "Pigeon"
+minecraft = "8de99aaa4fb44c428c50adfeb9c7bde5"
 
 +++
 
-Challenge another opponent to a Duel and battle it out!
+Challenge another opponent to a Duel, and battle it out! Maybe you really want to settle a debate, or maybe you just really don't like your opponent. Either way, by the end, you'll know which of you are the better at Minecraft PVP.

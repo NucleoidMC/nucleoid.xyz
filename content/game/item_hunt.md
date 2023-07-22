@@ -6,7 +6,7 @@ header = "assets/images/item_hunt.webp"
 link = "https://github.com/NucleoidMC/ItemHunt"
 
 [[extra.contributors]]
-name = "jerozgen"
+name = "Jerozgen"
 minecraft = "d8eddfc1c37643df9e19b031e72bfa78"
 +++
 

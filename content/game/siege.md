@@ -26,6 +26,9 @@ minecraft = "3744c0a9fb8541b78066b78ca1dc4bc6"
 [[extra.contributors]]
 name = "TheBrokenTwo"
 minecraft = "4a7864f9767844699df8039092b44f56"
+[[extra.contributors]]
+name = "valbrimi"
+minecraft = "6f6d39b3c21440ffa6e4606bc8d19d79"
 +++
 
 Siege is a work-in-progress point-capture team-based game in which the **Attackers** must take over all of the territory from the **Defenders** before time runs out. 

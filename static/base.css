@@ -25,3 +25,12 @@ img.sharp {
     image-rendering: -o-pixelated;
     -ms-interpolation-mode: nearest-neighbor;
 }
+
+.footer {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.footer p {
+    margin-top: 16px;
+}

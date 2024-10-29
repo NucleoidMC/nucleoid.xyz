@@ -1,16 +1,16 @@
 +++
-title = "Micro battle"
+title = "Micro Battle"
 
 [extra]
 header = "assets/images/micro-battle.webp"
-link = "https://github.com/NucleoidMC/Micro-battle"
+link = "https://github.com/NucleoidMC/Micro-Battle"
 
 [[extra.contributors]]
 name = "haykam"
 minecraft = "c705fc7d09624d1e905bb83d81d9b4ec"
 +++
 
-Micro battle is a free-for-all or team-based game in which players duel in order to become the last one standing!
+Micro Battle is a free-for-all or team-based game in which players duel in order to become the last one standing!
 
 The game has three modes:
  - Standard: everybody receives the same kits
